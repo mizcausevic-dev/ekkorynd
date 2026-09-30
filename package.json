@@ -4,6 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Ekkorynd — a spatial-memory browser game. Reconstruct a briefly illuminated pattern on a grid.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mizcausevic-dev/ekkorynd.git"
+  },
+  "keywords": ["memory-game", "browser-game", "typescript", "vite", "canvas", "spatial-memory", "puzzle"],
+  "author": "Mirza Causevic <miz@kineticgain.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
