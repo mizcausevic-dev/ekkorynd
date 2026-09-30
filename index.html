@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="description" content="Ekkorynd — a spatial-memory game. Reconstruct a briefly illuminated pattern on a grid." />
+    <meta name="theme-color" content="#0B0C10" />
+    <title>Ekkorynd — Spatial Memory Game</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; }
+      html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; }
+      body {
+        background: #0B0C10;
+        color: #C5C6C7;
+        font-family: 'Space Grotesk', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        touch-action: manipulation;
+      }
+      #app { width: 100%; height: 100%; }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+    </style>
+  </head>
+  <body>
+    <div id="app" role="application" aria-label="Ekkorynd spatial memory game"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
